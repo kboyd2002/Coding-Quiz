@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div>
+        <div class="row">
+            <div>
+                <a href="#" id="viewHighScore">View High Scores</a>
+            </div>
+            <div id="timer">
+                <i class="far fa-clock"></i> Time: <span id="timeLeft">0</span>
+            </div>
+            <div id="timesUp" style="display: none;">Time's Up!</div>
+        </div>
+
+        <div id="everything">
+            <div class="col-md-2"></div>
+              <main class="col-md-8 mt-5">
+                  <!--start screen  -->
+                  <div id="start">
+                      <h1>Coding Quiz Challenge</h1>
+                      <p>Let's test your knowledge on JavaScript fundamentals! Try to answer the followding code-related questions within the time limit. Keep in mind that incorrect answers will penalize your time by ten seconds!</p>
+                      <button type="button" id="start-quiz-button">Start Quiz</button>
+                  </div>
+
+                  <!--quiz div  -->
+                  <div id="questionDiv" style="display: none;">
+                    <p id="questionTitle"></p>
+                    <div>
+                        <p><button id="btn0" class="btn btn-dark"></button></p>
+                        <p><button id="btn1" class="btn btn-dark"></button></p>
+                        <p><button id="btn2" class="btn btn-dark"></button></p>
+                        <p><button id="btn3" class="btn btn-dark"></button></p>
+                        <hr id="lineBreak" style="display: none" class="mt-4">
+                        <p id="answerCheck" style="display: none;"></p>
+                    </div>
+                  </div>
+
+                  <!-- score div -->
+                    <div id="summary" style="display: none;">
+                        <div></div>
+                        <div>
+                            <h2>Your final score is <span id="finalScore"></span> !</h2>
+                            <form>
+                                <p>Enter your initials: <input id="initialInput" type="text">
+                                <button type="submit" id="submitInitialBtn">Submit</button>
+                                </p>
+                            </form>
+                        </div>
+                    <div></div>
+                </div>
+
+                <!-- highscores section -->
+                <div id="highScoreSection" style="display: none;">
+                    <h2>High Scores</h2>                   
+                    
+                    <div id="listOfHighScores"></div>
+
+                    <!-- append each highscore as new paragraph here -->
+                    <p>
+                        <button type="submit" class="btn btn-info" id="goBackBtn">Go Back</button>
+                        <button type="submit" class="btn btn-info" id="clearHighScoreBtn">Clear High Scores</button>
+                    </p>
+                    
+                </div>
+              </main>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- linking js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
