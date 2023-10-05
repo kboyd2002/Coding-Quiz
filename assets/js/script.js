@@ -25,11 +25,6 @@ const questions = [
       answer: "b. function myFunction()"
   },
   {
-      question: "How do you call a function named myFunction?",
-      choices: ["a. call myFunction()", "b. call function myFunction()", "c. myFunction()", "d. call myFunction"],
-      answer: "c. myFunctions()"
-  },
-  {
       question: "The first index of an array is ____.",
       choices: ["a. 0", "b. 1", "c. 8", "d. any"],
       answer: "a. 0"
