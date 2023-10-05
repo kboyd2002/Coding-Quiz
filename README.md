@@ -2,7 +2,7 @@
 # Coding Quiz
 
 ## Description
-A mulitple choice quiz on the topic of javascript
+A multiple choice quiz on the topic of javascript
 
 ## Installation
 N/A
@@ -11,7 +11,8 @@ N/A
 test your JavaScript Knowledge
 
 ## Credits
-
+https://getbootstrap.com/docs/
+https://api.jquery.com/
 
 ## License
 MIT License
