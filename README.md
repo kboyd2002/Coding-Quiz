@@ -13,6 +13,7 @@ test your JavaScript Knowledge
 ## Credits
 https://getbootstrap.com/docs/
 https://api.jquery.com/
+https://github.com/DevonMcfarlen -- helping with preventPropagation()
 
 ## License
 MIT License
